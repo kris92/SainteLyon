@@ -1,0 +1,482 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		01B4F0DE172A9DD20035D117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F0DD172A9DD20035D117 /* UIKit.framework */; };
+		01B4F0E0172A9DD20035D117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F0DF172A9DD20035D117 /* Foundation.framework */; };
+		01B4F0E2172A9DD20035D117 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F0E1172A9DD20035D117 /* CoreGraphics.framework */; };
+		01B4F0E8172A9DD20035D117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F0E6172A9DD20035D117 /* InfoPlist.strings */; };
+		01B4F0EA172A9DD20035D117 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F0E9172A9DD20035D117 /* main.m */; };
+		01B4F0EE172A9DD20035D117 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F0ED172A9DD20035D117 /* AppDelegate.m */; };
+		01B4F0F0172A9DD20035D117 /* Default.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F0EF172A9DD20035D117 /* Default.png */; };
+		01B4F0F2172A9DD20035D117 /* Default@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F0F1172A9DD20035D117 /* Default@2x.png */; };
+		01B4F0F4172A9DD20035D117 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F0F3172A9DD20035D117 /* Default-568h@2x.png */; };
+		01B4F0F7172A9DD20035D117 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F0F5172A9DD20035D117 /* MainStoryboard_iPhone.storyboard */; };
+		01B4F0FA172A9DD20035D117 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F0F8172A9DD20035D117 /* MainStoryboard_iPad.storyboard */; };
+		01B4F0FD172A9DD20035D117 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F0FC172A9DD20035D117 /* ViewController.m */; };
+		01B4F105172A9DD20035D117 /* SenTestingKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F104172A9DD20035D117 /* SenTestingKit.framework */; };
+		01B4F106172A9DD20035D117 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F0DD172A9DD20035D117 /* UIKit.framework */; };
+		01B4F107172A9DD20035D117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F0DF172A9DD20035D117 /* Foundation.framework */; };
+		01B4F10F172A9DD20035D117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F10D172A9DD20035D117 /* InfoPlist.strings */; };
+		01B4F112172A9DD20035D117 /* SainteLyonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F111172A9DD20035D117 /* SainteLyonTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		01B4F108172A9DD20035D117 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 01B4F0D2172A9DD20035D117 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 01B4F0D9172A9DD20035D117;
+			remoteInfo = SainteLyon;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01B4F0DA172A9DD20035D117 /* SainteLyon.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SainteLyon.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B4F0DD172A9DD20035D117 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		01B4F0DF172A9DD20035D117 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		01B4F0E1172A9DD20035D117 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		01B4F0E5172A9DD20035D117 /* SainteLyon-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SainteLyon-Info.plist"; sourceTree = "<group>"; };
+		01B4F0E7172A9DD20035D117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01B4F0E9172A9DD20035D117 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		01B4F0EB172A9DD20035D117 /* SainteLyon-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SainteLyon-Prefix.pch"; sourceTree = "<group>"; };
+		01B4F0EC172A9DD20035D117 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		01B4F0ED172A9DD20035D117 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		01B4F0EF172A9DD20035D117 /* Default.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Default.png; sourceTree = "<group>"; };
+		01B4F0F1172A9DD20035D117 /* Default@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default@2x.png"; sourceTree = "<group>"; };
+		01B4F0F3172A9DD20035D117 /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
+		01B4F0F6172A9DD20035D117 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		01B4F0F9172A9DD20035D117 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		01B4F0FB172A9DD20035D117 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		01B4F0FC172A9DD20035D117 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		01B4F103172A9DD20035D117 /* SainteLyonTests.octest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SainteLyonTests.octest; sourceTree = BUILT_PRODUCTS_DIR; };
+		01B4F104172A9DD20035D117 /* SenTestingKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SenTestingKit.framework; path = Library/Frameworks/SenTestingKit.framework; sourceTree = DEVELOPER_DIR; };
+		01B4F10C172A9DD20035D117 /* SainteLyonTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SainteLyonTests-Info.plist"; sourceTree = "<group>"; };
+		01B4F10E172A9DD20035D117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		01B4F110172A9DD20035D117 /* SainteLyonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SainteLyonTests.h; sourceTree = "<group>"; };
+		01B4F111172A9DD20035D117 /* SainteLyonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SainteLyonTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		01B4F0D7172A9DD20035D117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4F0DE172A9DD20035D117 /* UIKit.framework in Frameworks */,
+				01B4F0E0172A9DD20035D117 /* Foundation.framework in Frameworks */,
+				01B4F0E2172A9DD20035D117 /* CoreGraphics.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B4F0FF172A9DD20035D117 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4F105172A9DD20035D117 /* SenTestingKit.framework in Frameworks */,
+				01B4F106172A9DD20035D117 /* UIKit.framework in Frameworks */,
+				01B4F107172A9DD20035D117 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		01B4F0D1172A9DD20035D117 = {
+			isa = PBXGroup;
+			children = (
+				01B4F0E3172A9DD20035D117 /* SainteLyon */,
+				01B4F10A172A9DD20035D117 /* SainteLyonTests */,
+				01B4F0DC172A9DD20035D117 /* Frameworks */,
+				01B4F0DB172A9DD20035D117 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		01B4F0DB172A9DD20035D117 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F0DA172A9DD20035D117 /* SainteLyon.app */,
+				01B4F103172A9DD20035D117 /* SainteLyonTests.octest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		01B4F0DC172A9DD20035D117 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F0DD172A9DD20035D117 /* UIKit.framework */,
+				01B4F0DF172A9DD20035D117 /* Foundation.framework */,
+				01B4F0E1172A9DD20035D117 /* CoreGraphics.framework */,
+				01B4F104172A9DD20035D117 /* SenTestingKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		01B4F0E3172A9DD20035D117 /* SainteLyon */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F0EC172A9DD20035D117 /* AppDelegate.h */,
+				01B4F0ED172A9DD20035D117 /* AppDelegate.m */,
+				01B4F0F5172A9DD20035D117 /* MainStoryboard_iPhone.storyboard */,
+				01B4F0F8172A9DD20035D117 /* MainStoryboard_iPad.storyboard */,
+				01B4F0FB172A9DD20035D117 /* ViewController.h */,
+				01B4F0FC172A9DD20035D117 /* ViewController.m */,
+				01B4F0E4172A9DD20035D117 /* Supporting Files */,
+			);
+			path = SainteLyon;
+			sourceTree = "<group>";
+		};
+		01B4F0E4172A9DD20035D117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F0E5172A9DD20035D117 /* SainteLyon-Info.plist */,
+				01B4F0E6172A9DD20035D117 /* InfoPlist.strings */,
+				01B4F0E9172A9DD20035D117 /* main.m */,
+				01B4F0EB172A9DD20035D117 /* SainteLyon-Prefix.pch */,
+				01B4F0EF172A9DD20035D117 /* Default.png */,
+				01B4F0F1172A9DD20035D117 /* Default@2x.png */,
+				01B4F0F3172A9DD20035D117 /* Default-568h@2x.png */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		01B4F10A172A9DD20035D117 /* SainteLyonTests */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F110172A9DD20035D117 /* SainteLyonTests.h */,
+				01B4F111172A9DD20035D117 /* SainteLyonTests.m */,
+				01B4F10B172A9DD20035D117 /* Supporting Files */,
+			);
+			path = SainteLyonTests;
+			sourceTree = "<group>";
+		};
+		01B4F10B172A9DD20035D117 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F10C172A9DD20035D117 /* SainteLyonTests-Info.plist */,
+				01B4F10D172A9DD20035D117 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		01B4F0D9172A9DD20035D117 /* SainteLyon */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B4F115172A9DD20035D117 /* Build configuration list for PBXNativeTarget "SainteLyon" */;
+			buildPhases = (
+				01B4F0D6172A9DD20035D117 /* Sources */,
+				01B4F0D7172A9DD20035D117 /* Frameworks */,
+				01B4F0D8172A9DD20035D117 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SainteLyon;
+			productName = SainteLyon;
+			productReference = 01B4F0DA172A9DD20035D117 /* SainteLyon.app */;
+			productType = "com.apple.product-type.application";
+		};
+		01B4F102172A9DD20035D117 /* SainteLyonTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 01B4F118172A9DD20035D117 /* Build configuration list for PBXNativeTarget "SainteLyonTests" */;
+			buildPhases = (
+				01B4F0FE172A9DD20035D117 /* Sources */,
+				01B4F0FF172A9DD20035D117 /* Frameworks */,
+				01B4F100172A9DD20035D117 /* Resources */,
+				01B4F101172A9DD20035D117 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				01B4F109172A9DD20035D117 /* PBXTargetDependency */,
+			);
+			name = SainteLyonTests;
+			productName = SainteLyonTests;
+			productReference = 01B4F103172A9DD20035D117 /* SainteLyonTests.octest */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		01B4F0D2172A9DD20035D117 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0460;
+				ORGANIZATIONNAME = "Christophe Janot";
+			};
+			buildConfigurationList = 01B4F0D5172A9DD20035D117 /* Build configuration list for PBXProject "SainteLyon" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 01B4F0D1172A9DD20035D117;
+			productRefGroup = 01B4F0DB172A9DD20035D117 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				01B4F0D9172A9DD20035D117 /* SainteLyon */,
+				01B4F102172A9DD20035D117 /* SainteLyonTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		01B4F0D8172A9DD20035D117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4F0E8172A9DD20035D117 /* InfoPlist.strings in Resources */,
+				01B4F0F0172A9DD20035D117 /* Default.png in Resources */,
+				01B4F0F2172A9DD20035D117 /* Default@2x.png in Resources */,
+				01B4F0F4172A9DD20035D117 /* Default-568h@2x.png in Resources */,
+				01B4F0F7172A9DD20035D117 /* MainStoryboard_iPhone.storyboard in Resources */,
+				01B4F0FA172A9DD20035D117 /* MainStoryboard_iPad.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B4F100172A9DD20035D117 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4F10F172A9DD20035D117 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		01B4F101172A9DD20035D117 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Run the unit tests in this test bundle.\n\"${SYSTEM_DEVELOPER_DIR}/Tools/RunUnitTests\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		01B4F0D6172A9DD20035D117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4F0EA172A9DD20035D117 /* main.m in Sources */,
+				01B4F0EE172A9DD20035D117 /* AppDelegate.m in Sources */,
+				01B4F0FD172A9DD20035D117 /* ViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		01B4F0FE172A9DD20035D117 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				01B4F112172A9DD20035D117 /* SainteLyonTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		01B4F109172A9DD20035D117 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 01B4F0D9172A9DD20035D117 /* SainteLyon */;
+			targetProxy = 01B4F108172A9DD20035D117 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		01B4F0E6172A9DD20035D117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B4F0E7172A9DD20035D117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		01B4F0F5172A9DD20035D117 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B4F0F6172A9DD20035D117 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		01B4F0F8172A9DD20035D117 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B4F0F9172A9DD20035D117 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+		01B4F10D172A9DD20035D117 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				01B4F10E172A9DD20035D117 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		01B4F113172A9DD20035D117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		01B4F114172A9DD20035D117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		01B4F116172A9DD20035D117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SainteLyon/SainteLyon-Prefix.pch";
+				INFOPLIST_FILE = "SainteLyon/SainteLyon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		01B4F117172A9DD20035D117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SainteLyon/SainteLyon-Prefix.pch";
+				INFOPLIST_FILE = "SainteLyon/SainteLyon-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		01B4F119172A9DD20035D117 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SainteLyon.app/SainteLyon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SainteLyon/SainteLyon-Prefix.pch";
+				INFOPLIST_FILE = "SainteLyonTests/SainteLyonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Debug;
+		};
+		01B4F11A172A9DD20035D117 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/SainteLyon.app/SainteLyon";
+				FRAMEWORK_SEARCH_PATHS = (
+					"\"$(SDKROOT)/Developer/Library/Frameworks\"",
+					"\"$(DEVELOPER_LIBRARY_DIR)/Frameworks\"",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SainteLyon/SainteLyon-Prefix.pch";
+				INFOPLIST_FILE = "SainteLyonTests/SainteLyonTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = octest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		01B4F0D5172A9DD20035D117 /* Build configuration list for PBXProject "SainteLyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B4F113172A9DD20035D117 /* Debug */,
+				01B4F114172A9DD20035D117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		01B4F115172A9DD20035D117 /* Build configuration list for PBXNativeTarget "SainteLyon" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B4F116172A9DD20035D117 /* Debug */,
+				01B4F117172A9DD20035D117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		01B4F118172A9DD20035D117 /* Build configuration list for PBXNativeTarget "SainteLyonTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				01B4F119172A9DD20035D117 /* Debug */,
+				01B4F11A172A9DD20035D117 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 01B4F0D2172A9DD20035D117 /* Project object */;
+}
