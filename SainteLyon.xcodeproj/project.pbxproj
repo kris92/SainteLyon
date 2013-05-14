@@ -24,6 +24,17 @@
 		01B4F107172A9DD20035D117 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F0DF172A9DD20035D117 /* Foundation.framework */; };
 		01B4F10F172A9DD20035D117 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F10D172A9DD20035D117 /* InfoPlist.strings */; };
 		01B4F112172A9DD20035D117 /* SainteLyonTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F111172A9DD20035D117 /* SainteLyonTests.m */; };
+		01B4F11F172A9E320035D117 /* WebParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F11E172A9E320035D117 /* WebParser.m */; };
+		01B4F127172AA6300035D117 /* TFHpple.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F122172AA6300035D117 /* TFHpple.m */; };
+		01B4F128172AA6300035D117 /* TFHppleElement.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F124172AA6300035D117 /* TFHppleElement.m */; };
+		01B4F129172AA6300035D117 /* XPathQuery.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F126172AA6300035D117 /* XPathQuery.m */; };
+		01B4F12D172AA6C90035D117 /* libxml2.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 01B4F12C172AA6C90035D117 /* libxml2.2.dylib */; };
+		01B4F130172AB4140035D117 /* Participant.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F12F172AB4140035D117 /* Participant.m */; };
+		01B4F133172ACF560035D117 /* RaceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 01B4F132172ACF560035D117 /* RaceCell.xib */; };
+		01B4F139172AD45C0035D117 /* RaceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 01B4F138172AD45C0035D117 /* RaceCell.m */; };
+		01BCC3B4172E62D200E2F8AD /* Race.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BCC3B3172E62D200E2F8AD /* Race.m */; };
+		01BCC3B8172E84E600E2F8AD /* Pie.m in Sources */ = {isa = PBXBuildFile; fileRef = 01BCC3B7172E84E600E2F8AD /* Pie.m */; };
+		01F92F3A172EC3D1008F7541 /* saintelyon.png in Resources */ = {isa = PBXBuildFile; fileRef = 01F92F39172EC3D1008F7541 /* saintelyon.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -60,6 +71,25 @@
 		01B4F10E172A9DD20035D117 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		01B4F110172A9DD20035D117 /* SainteLyonTests.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SainteLyonTests.h; sourceTree = "<group>"; };
 		01B4F111172A9DD20035D117 /* SainteLyonTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SainteLyonTests.m; sourceTree = "<group>"; };
+		01B4F11D172A9E320035D117 /* WebParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = WebParser.h; path = ../WebParser.h; sourceTree = "<group>"; };
+		01B4F11E172A9E320035D117 /* WebParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = WebParser.m; path = ../WebParser.m; sourceTree = "<group>"; };
+		01B4F121172AA6300035D117 /* TFHpple.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHpple.h; sourceTree = "<group>"; };
+		01B4F122172AA6300035D117 /* TFHpple.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHpple.m; sourceTree = "<group>"; };
+		01B4F123172AA6300035D117 /* TFHppleElement.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TFHppleElement.h; sourceTree = "<group>"; };
+		01B4F124172AA6300035D117 /* TFHppleElement.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TFHppleElement.m; sourceTree = "<group>"; };
+		01B4F125172AA6300035D117 /* XPathQuery.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XPathQuery.h; sourceTree = "<group>"; };
+		01B4F126172AA6300035D117 /* XPathQuery.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XPathQuery.m; sourceTree = "<group>"; };
+		01B4F12C172AA6C90035D117 /* libxml2.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libxml2.2.dylib; path = usr/lib/libxml2.2.dylib; sourceTree = SDKROOT; };
+		01B4F12E172AB4140035D117 /* Participant.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Participant.h; sourceTree = "<group>"; };
+		01B4F12F172AB4140035D117 /* Participant.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Participant.m; sourceTree = "<group>"; };
+		01B4F132172ACF560035D117 /* RaceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RaceCell.xib; sourceTree = "<group>"; };
+		01B4F137172AD45C0035D117 /* RaceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RaceCell.h; sourceTree = "<group>"; };
+		01B4F138172AD45C0035D117 /* RaceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RaceCell.m; sourceTree = "<group>"; };
+		01BCC3B2172E62D200E2F8AD /* Race.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Race.h; sourceTree = "<group>"; };
+		01BCC3B3172E62D200E2F8AD /* Race.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Race.m; sourceTree = "<group>"; };
+		01BCC3B6172E84E600E2F8AD /* Pie.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Pie.h; sourceTree = "<group>"; };
+		01BCC3B7172E84E600E2F8AD /* Pie.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Pie.m; sourceTree = "<group>"; };
+		01F92F39172EC3D1008F7541 /* saintelyon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = saintelyon.png; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -67,6 +97,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				01B4F12D172AA6C90035D117 /* libxml2.2.dylib in Frameworks */,
 				01B4F0DE172A9DD20035D117 /* UIKit.framework in Frameworks */,
 				01B4F0E0172A9DD20035D117 /* Foundation.framework in Frameworks */,
 				01B4F0E2172A9DD20035D117 /* CoreGraphics.framework in Frameworks */,
@@ -92,6 +123,7 @@
 				01B4F0E3172A9DD20035D117 /* SainteLyon */,
 				01B4F10A172A9DD20035D117 /* SainteLyonTests */,
 				01B4F0DC172A9DD20035D117 /* Frameworks */,
+				01B4F12C172AA6C90035D117 /* libxml2.2.dylib */,
 				01B4F0DB172A9DD20035D117 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -119,12 +151,20 @@
 		01B4F0E3172A9DD20035D117 /* SainteLyon */ = {
 			isa = PBXGroup;
 			children = (
+				01B4F135172AD41B0035D117 /* RaceCells */,
 				01B4F0EC172A9DD20035D117 /* AppDelegate.h */,
 				01B4F0ED172A9DD20035D117 /* AppDelegate.m */,
 				01B4F0F5172A9DD20035D117 /* MainStoryboard_iPhone.storyboard */,
 				01B4F0F8172A9DD20035D117 /* MainStoryboard_iPad.storyboard */,
 				01B4F0FB172A9DD20035D117 /* ViewController.h */,
 				01B4F0FC172A9DD20035D117 /* ViewController.m */,
+				01B4F11D172A9E320035D117 /* WebParser.h */,
+				01B4F11E172A9E320035D117 /* WebParser.m */,
+				01B4F12E172AB4140035D117 /* Participant.h */,
+				01B4F12F172AB4140035D117 /* Participant.m */,
+				01BCC3B2172E62D200E2F8AD /* Race.h */,
+				01BCC3B3172E62D200E2F8AD /* Race.m */,
+				01B4F120172AA6160035D117 /* hpple */,
 				01B4F0E4172A9DD20035D117 /* Supporting Files */,
 			);
 			path = SainteLyon;
@@ -133,6 +173,7 @@
 		01B4F0E4172A9DD20035D117 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				01F92F39172EC3D1008F7541 /* saintelyon.png */,
 				01B4F0E5172A9DD20035D117 /* SainteLyon-Info.plist */,
 				01B4F0E6172A9DD20035D117 /* InfoPlist.strings */,
 				01B4F0E9172A9DD20035D117 /* main.m */,
@@ -163,6 +204,47 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		01B4F120172AA6160035D117 /* hpple */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F121172AA6300035D117 /* TFHpple.h */,
+				01B4F122172AA6300035D117 /* TFHpple.m */,
+				01B4F123172AA6300035D117 /* TFHppleElement.h */,
+				01B4F124172AA6300035D117 /* TFHppleElement.m */,
+				01B4F125172AA6300035D117 /* XPathQuery.h */,
+				01B4F126172AA6300035D117 /* XPathQuery.m */,
+			);
+			name = hpple;
+			sourceTree = "<group>";
+		};
+		01B4F135172AD41B0035D117 /* RaceCells */ = {
+			isa = PBXGroup;
+			children = (
+				01BCC3B5172E84B700E2F8AD /* Common */,
+				01B4F136172AD4290035D117 /* iPhone */,
+			);
+			name = RaceCells;
+			sourceTree = "<group>";
+		};
+		01B4F136172AD4290035D117 /* iPhone */ = {
+			isa = PBXGroup;
+			children = (
+				01B4F137172AD45C0035D117 /* RaceCell.h */,
+				01B4F138172AD45C0035D117 /* RaceCell.m */,
+				01B4F132172ACF560035D117 /* RaceCell.xib */,
+			);
+			name = iPhone;
+			sourceTree = "<group>";
+		};
+		01BCC3B5172E84B700E2F8AD /* Common */ = {
+			isa = PBXGroup;
+			children = (
+				01BCC3B6172E84E600E2F8AD /* Pie.h */,
+				01BCC3B7172E84E600E2F8AD /* Pie.m */,
+			);
+			name = Common;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -170,8 +252,8 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 01B4F115172A9DD20035D117 /* Build configuration list for PBXNativeTarget "SainteLyon" */;
 			buildPhases = (
-				01B4F0D6172A9DD20035D117 /* Sources */,
 				01B4F0D7172A9DD20035D117 /* Frameworks */,
+				01B4F0D6172A9DD20035D117 /* Sources */,
 				01B4F0D8172A9DD20035D117 /* Resources */,
 			);
 			buildRules = (
@@ -240,6 +322,8 @@
 				01B4F0F4172A9DD20035D117 /* Default-568h@2x.png in Resources */,
 				01B4F0F7172A9DD20035D117 /* MainStoryboard_iPhone.storyboard in Resources */,
 				01B4F0FA172A9DD20035D117 /* MainStoryboard_iPad.storyboard in Resources */,
+				01B4F133172ACF560035D117 /* RaceCell.xib in Resources */,
+				01F92F3A172EC3D1008F7541 /* saintelyon.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -277,6 +361,14 @@
 				01B4F0EA172A9DD20035D117 /* main.m in Sources */,
 				01B4F0EE172A9DD20035D117 /* AppDelegate.m in Sources */,
 				01B4F0FD172A9DD20035D117 /* ViewController.m in Sources */,
+				01B4F11F172A9E320035D117 /* WebParser.m in Sources */,
+				01B4F127172AA6300035D117 /* TFHpple.m in Sources */,
+				01B4F128172AA6300035D117 /* TFHppleElement.m in Sources */,
+				01B4F129172AA6300035D117 /* XPathQuery.m in Sources */,
+				01B4F130172AB4140035D117 /* Participant.m in Sources */,
+				01B4F139172AD45C0035D117 /* RaceCell.m in Sources */,
+				01BCC3B4172E62D200E2F8AD /* Race.m in Sources */,
+				01BCC3B8172E84E600E2F8AD /* Pie.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -359,6 +451,7 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -384,6 +477,8 @@
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNINITIALIZED_AUTOS = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(SDKROOT)/usr/include/libxml2";
+				"HEADER_SEARCH_PATHS[sdk=*]" = "";
 				IPHONEOS_DEPLOYMENT_TARGET = 6.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
@@ -467,6 +562,7 @@
 				01B4F117172A9DD20035D117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		01B4F118172A9DD20035D117 /* Build configuration list for PBXNativeTarget "SainteLyonTests" */ = {
 			isa = XCConfigurationList;
@@ -475,6 +571,7 @@
 				01B4F11A172A9DD20035D117 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
