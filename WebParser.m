@@ -12,8 +12,8 @@
 
 @implementation WebParser
 
-static NSString *alphabet = @"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
-//static NSString *alphabet = @"ABCDEFGHIJKLMN";
+//static NSString *alphabet = @"ABCDEFGHIJKLMNOPQRSTUVWXYZ";
+static NSString *alphabet = @"ABCDEFGHIJKLMN";
 
 - (Boolean)readUrl:(NSString *)anUrl {
     webUrl = anUrl;
